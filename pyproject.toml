@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "phopymatlabconverter"
+version = "0.1.0"
+description = ""
+authors = ["Pho Hale <PhoHale@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+h5py = "^3.11.0"
+hdf5storage = "^0.1.19"
+matplotlib = "^3.8.4"
+pandas = "^2.2.2"
+pathlib = "^1.0.1"
+qtpy = "^2.4.1"
+pyqt6 = "^6.7.0"
+setuptools = "^69.5.1"
+ipykernel = "^6.29.4"
+ipython = "^8.24.0"
+scipy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
